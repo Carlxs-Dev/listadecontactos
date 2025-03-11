@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Contactos</h1>
+    </div>
+        <div>
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Nombre completo">
+                <span class="error-message" id="nameError">Tiene que tener nombre y apellido, ambos comienzan con mayúscula</span>
+            </div>
+            
+            <div class="input-group">
+                <input type="tel" id="phone" placeholder="Número telefónico">
+            </div>
+            
+            <button type="submit" class="add-btn"> Agregar Contacto</button>
+        </form>
+
+        <div id="contactsList" class="contacts-list">
+            
+            
+            <div class="contact-item">
+                <div>
+                    <h3>Carlymar Marrero</h3>
+                    <p>+584242165293</p>
+                </div>
+                <div class="contact-actions">
+                    <button class="edit-btn">Editar</button>
+                    <button class="delete-btn">Eliminar</button>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div>
+                    <h3>Katherin Valderrama</h3>
+                    <p>+584241460863</p>
+                </div>
+                <div class="contact-actions">
+                    <button class="edit-btn">Editar</button>
+                    <button class="delete-btn">Eliminar</button>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div>
+                    <h3>Carlos Daniel</h3>
+                    <p>+584242123194</p>
+                </div>
+                <div class="contact-actions">
+                    <button class="edit-btn">Editar</button>
+                    <button class="delete-btn">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
