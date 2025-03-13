@@ -1,6 +1,11 @@
 /* cursor:not-allowed; SIRVE PARA DESHABILITAR LA OPCION */
 /* box-sizing: border-box; SIRVE PARA QUE SE AJUSTE EL TAMAÑO COMPLETO A LA PANTALLA */
+/* HEX: REPRESENTA COLORES EN DONDE LOS PRIMEROS 2 DIGITOS SON EL ROJO, LOS SIGUIENTES 2 EL AZUL, Y LOS ULTIMOS 2 EL VERDE */
 
+/* USAR GOOGLE FONTS */
+/* ARREGLAR LAS MEDIDAS CON REM */
+/* COLOCAR MISMAS MEDIDAS DE BOTONES EDITAR Y ELIMINAR, Y COLOCAR ICONOS */
+/* CAMBIAR EL H3 DE LOS NOMBRES A INPUT */
 
 :root {
     color-scheme: light dark;
@@ -30,7 +35,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 80rem;
     height: calc(18vh - 60px);
     display: flex;
     flex-direction: column;
@@ -65,8 +70,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    margin: 10px 0;
+    padding: 1rem;
+    margin: 1rem 0;
     background-color: rgba(0,0,0,0.05);
     border-radius: 8px;
 }
@@ -95,7 +100,7 @@ button {
 
 .contacts-list {
    flex-grow: 1;
-   overflow-y: auto; 
+   overflow: auto; 
    margin-top: 20px; 
 }
 
